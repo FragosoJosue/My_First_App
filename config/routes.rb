@@ -8,4 +8,6 @@ Rails.application.routes.draw do
   get 'greeter/hello' => "greeter#hello"
   get 'greeter/goodbye'
 
+
+  root 'courses#index'
 end
